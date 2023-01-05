@@ -1,0 +1,417 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body {
+    font-family: font-family: 'Roboto', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: font-family: 'Roboto', sans-serif;
+}
+.heading-1{
+    font-size :67.34px;
+}
+.heading-2{
+    font-size :50.52px
+}
+.heading-3{
+    font-size :37.90px
+}
+.heading-4{
+    font-size :28.43px
+}
+.heading-5{
+    font-size :21.33px
+}
+.heading-6{
+    font-size :16.00px
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+}
+header.sticky {
+    background: #fff;
+    padding: 20px 100px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+header .logo {
+    color: #2a224f;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+header.sticky .logo {
+    color: #111;
+}
+header ul {
+    position: relative;
+    display: flex;
+}
+header ul li {
+    position: relative;
+    list-style: none;
+}
+header.sticky ul li a {
+    color: #111;
+}
+header ul li a {
+    position: relative;
+    display: inline-block;
+    margin: 0 15px;
+    color: #2a224f;
+    text-decoration: none;
+}
+
+    /* ======== carousel section style start hear ========= */
+    .carouse .content a p{
+        color: #6244C5;
+        
+      }
+      .carouse .content h3{
+        color: #2A224F !important;
+        font-weight: 800;
+      }
+      .carousel{
+        padding: 60px 0;
+      }
+      .carouse .content {
+        margin-left: 10px;
+      }
+      .carouse .content img{
+        width: 100%;
+        background-size: cover;
+      }
+  
+      /* ======== carousel section style end hear ========= */
+  
+      /* ========== Survices section style start har ========== */
+  
+      .survices_section .content:hover{
+        background: #6244C5;
+        transition: 1s;
+        border-top: none;
+        border-bottom: none;
+        border-top: 2px solid transparent;
+      }
+      .survices_section .content:hover h2,
+      .survices_section .content:hover span,
+      .survices_section .content:hover p, 
+      .survices_section .content:hover i{
+        color: #fff !important;
+      }
+      .survices_section .content:hover .right_content .r-i i{
+        border: 2px solid white;
+        border-radius: 5px;
+      }
+      .survices_section .content .left_content{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+  
+      .survices_section .content .right_content .r-c{
+        color: #2A224F;
+      }
+      .survices_section .content .right_content .r-i{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .survices_section .content .right_content .r-i i{
+        font-size: 40px;
+        color: #6244C5;
+        text-align: center;
+        padding: 2px;
+        border: 2px solid transparent;
+      }
+      .survices_section .content h2{
+        font-weight: 600;
+      }
+      .survices_section .content h2 span{
+        color: #6244C5;
+        font-size: 28px;
+      }
+      .survices_section .content{
+         padding: 20px;
+         transition: .5s;
+         border-top: 2px solid #fff;
+      }
+      .survices_section .content:last-child{
+        border-bottom: 2px solid #fff;
+      }
+  
+      .survices_section .survices_heading h1{
+        font-weight: 700;
+        font-size: 60px;
+        color: #6244C5;
+        position: relative;
+        text-decoration: underline;
+        text-underline-offset: 20px;
+        margin-bottom: 60px;
+      }
+    
+      /* .survices_section .survices_heading h1::before{
+        content: "";
+        height: 5px;
+        width: 200px;
+        background: red;
+        position: absolute;
+        display: block;
+        left: 0;
+        top: 50%;
+        z-index: -2;
+      } */
+      /* .survices_section .survices_heading h1::after{
+        content: "";
+        height: 5px;
+        width: 200px;
+        background: red;
+        position: absolute;
+        display: block;
+        right: 0;
+        top: 50%;
+        z-index: -2;
+        
+      } */
+      /* .survices_section .survices_heading span{
+        background: #fff;
+      } */
+      .survices_section{
+        padding: 80px 0;
+        overflow: hidden;
+        background: rgb(187, 191, 243);
+      }
+     
+      /* ========= Survices section style end hear========== */
+      /* =========== Count section style start hear ============= */
+      .count_section{
+        overflow: hidden;
+        padding: 40px 0;
+      }
+      .count_section .content{
+        text-align: center;
+        background: #6244C5;
+        padding: 30px;
+        border-radius: 10px;
+      }
+      .count_section .content h1{
+        color: #fff;
+        font-weight: 800;
+        font-size: 70px;
+  
+      }
+      .count_section .content p{
+        color: #fff;
+      }
+      /* =========== Count section style start hear ============= */
+  
+      /* =========== Expert Areas section style start hear =========== */
+      .expert_areas .nav .nav-link{
+        color: #6244C5;
+        font-size: 18px;
+        font-weight: 600;
+      }
+      .expert_areas .nav .nav-link i{
+        margin-left: 5px;
+        font-size: 15px;
+      }
+      .expert_areas .nav{
+        border-color: #6244C5;
+      }
+      .expert_areas .tab-content .ex .content span{
+        color: #6244C5;
+      }
+      .expert_areas .tab-content .ex .content p{
+        color: #2A224F;
+      }
+      .expert_areas .tab-content .ex .content h3{
+        color: #6244C5;
+  
+      }
+  
+  
+      .expert_areas .tab-content .ex .content{
+        padding: 20px;
+      }
+      .expert_areas .tab-content {
+        padding-top: 20px;
+      }
+      .expert_areas .tab-content .content{
+        padding: 25px;
+        margin-bottom: 10px;
+      }
+      .expert_areas .tab-content .content i{
+        font-size: 40px !important;
+        color: #6244C5;
+      }
+      .expert_areas{
+        padding: 80px 0;
+        overflow: hidden;
+      }
+      .expert_areas .right-content h1{
+        font-size: 50px;
+      }
+      .expert_areas .right-content button{
+        padding: 15px 30px;
+        border: none;
+        background: #2A224F;
+        font-weight: 600;
+        font-size: 20px;
+        border-radius: 5px;
+        transition: .5s;
+        color: #fff;
+        border: 2px solid transparent;
+  
+      }
+      .expert_areas .right-content button:hover{
+        color: #6244C5;
+        background: transparent;
+        border: 2px solid #6244C5;
+  
+      }
+      .expert_areas .right-content p{
+        font-size: 20px;
+        color: #2A224F;
+      }
+  
+      /* =========== Expert Areas section style end hear =========== */
+      /* =========== About section style start hear=========== */
+      .about_section .about_content button{
+        padding: 15px 30px;
+        border: none;
+        background: #fff;
+        font-weight: 600;
+        font-size: 20px;
+        border-radius: 5px;
+        color: #6244C5;
+        transition: .5s;
+      }
+      .about_section .about_content button:hover{
+        background: #2A224F;
+        color: #fff;
+      }
+      .about_section .about_content h2{
+        font-size: 60px;
+      }
+      .about_section .about_content p{
+        color: antiquewhite;
+        line-height: 40px;
+      }
+      .about_section .about_content{
+        display: flex;
+        justify-content: center;
+        height: 100%;
+        flex-direction: column;
+        color: #fff;
+      }
+      .about_section{
+        height: auto;
+        background:#6244C5;
+        padding: 120px 0;
+        overflow: hidden;
+      }
+      .about_section .about_img img{
+        width: 100%;
+        border: 10px solid #fff;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  
+      }
+      /* ========== About section style end hear ========= */
+     
+      .banner_section_right .right_imge_position img{
+        width: 100%;
+        height: 84vh;
+      }
+      .banner_section .follo_me{
+        display: flex;
+        flex-direction: row;
+        margin-top: 40px;
+      }
+      .banner_section .follo_me ul li a{
+        font-size: 20px;
+        background: #81818141;
+        padding: 10px 14px;
+        border-radius: 50%;
+        transition: .5s;
+        color: #6244C5;
+      }
+      .banner_section .follo_me ul li a:hover{
+        background: #6244C5;
+        color: #fff;
+      }
+      .banner_section .follo_me ul{
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        gap: 12px;
+      }
+      .banner_section .follo_me span{
+        font-size: 18px !important;
+      }
+      .banner_section{
+        background: cornsilk;
+        height: auto;
+      }
+       .banner_section .content{
+        margin-top: 60px;
+       }
+        .banner_section .content span{
+          font-size: 30px;
+        }
+        .banner_section .content h1{
+          font-weight: 700;
+          color: #2A224F;
+          font-size: 70px;
+        }
+        .banner_section .content p{
+          color: #2A224F;
+          margin: 40px 0;
+        }
+        .banner_section .button1{
+          padding: 15px 30px;
+          background: #6244C5;
+          border-radius: 10px;
+          color: #fff;
+          border: none;
+          font-size: 20px;
+          font-weight: 600;
+          transition: .5s;
+        }
+        .banner_section .button1:hover{
+          background: #2A224F;
+        }
+        .banner_section .button2{
+          padding: 15px 30px;
+          background: transparent;
+          color: #2A224F;
+          border: none;
+          font-size: 20px;
+          font-weight: 600;
+          transition: .5s;
+        }
+         .banner_section{
+          padding-top: 100px;
+         }

@@ -1,58 +1,13 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-    @import url("https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap");
-}
-body {
-    font-family: "Libre Franklin", sans-serif;
-}
-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 40px 100px;
-    z-index: 1000;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    transition: 0.5s;
-}
-header.sticky {
-    background: #fff;
-    padding: 20px 100px;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
-}
-header .logo {
-    color: #2a224f;
-    font-size: 24px;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-weight: 600;
-    letter-spacing: 2px;
-}
-header.sticky .logo {
-    color: #111;
-}
-header ul {
-    position: relative;
-    display: flex;
-}
-header ul li {
-    position: relative;
-    list-style: none;
-}
-header.sticky ul li a {
-    color: #111;
-}
-header ul li a {
-    position: relative;
-    display: inline-block;
-    margin: 0 15px;
-    color: #2a224f;
-    text-decoration: none;
+@media only screen and (max-width: 600px) {
+    .banner_section .content {
+        padding: 0 40px;
+        margin-top: 0 !important;
+        height: 83vh;
+    }
+    .banner_section .content h1 {
+        font-weight: 600 !important;
+        font-size: 50px !important;
+    }
 }
 
 @media (max-width: 991px) {
@@ -101,5 +56,11 @@ header ul li a {
     }
     header.sticky .toggle {
         filter: invert(1);
+    }
+    .banner_section_right .right_imge_position img {
+        display: none;
+    }
+    .count_section .content {
+        margin-bottom: 30px;
     }
 }
